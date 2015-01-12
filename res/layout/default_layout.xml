@@ -1,0 +1,31 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+	<TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:text="Tuần hành lớn nhất lịch sử Pháp, phản đối khủng bố" />
+    
+    <ImageView
+        android:id="@+id/thumb"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/vnexpress" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="Tổng thống Pháp Hollande, Thủ tướng Israel Benjamin Netanyahu tham dự một buổi lễ tưởng niệm các nạn nhân tại tòa nhà Grand Synagogue, Paris.\nNgoại trưởng các nước châu Âu, Mỹ và Canada gặp mặt trước buổi lễ tuần hành và cùng đưa ra một tuyên bố chung. Họ cho biết các nhà cung cấp mạng cần hợp tác chặt chẽ hơn với chính phủ để hỗ trợ xóa bỏ những nội dung trực tuyến nhằm mục đích kích động hận thù và khủng bố" />
+</LinearLayout>
+</ScrollView>
